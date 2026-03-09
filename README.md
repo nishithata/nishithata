@@ -140,3 +140,4 @@ Key Features:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/nishitha-anil)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:nishitha.1190@gmail.com)
+[![Resume](https://img.shields.io/badge/Resume-1a1a1a?style=flat&logo=googledocs&logoColor=white)](https://nishithata.github.io/resume/)
