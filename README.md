@@ -15,6 +15,7 @@ I'm actively looking for **Ruby on Rails, backend, and full-stack engineering ro
 [![Resume](https://img.shields.io/badge/Resume-1a1a1a?style=flat&logo=googledocs&logoColor=white)](https://nishithata.github.io/resume/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://nishitha-studio.vercel.app)
 [![Rails API Demo](https://img.shields.io/badge/Rails_API_Demo-D30001?style=flat&logo=rubyonrails&logoColor=white)](https://community-reservations-api-web.vercel.app)
+[![QA Automation](https://img.shields.io/badge/QA_Automation-2EAD33?style=flat&logo=playwright&logoColor=white)](https://github.com/nishithata/community-reservations-qa)
 
 ---
 
@@ -23,7 +24,8 @@ I'm actively looking for **Ruby on Rails, backend, and full-stack engineering ro
 - **Backend APIs:** Rails and Express REST APIs with clean MVC structure, validations, and consistent JSON error responses
 - **Databases:** PostgreSQL schema design, migrations, indexes, constraints, and query optimization
 - **Security:** JWT authentication, role-based authorization, input validation, and rate limiting
-- **Quality & Delivery:** Minitest and Vitest test suites, GitHub Actions CI/CD, and AWS deployment
+- **QA & Test Automation:** Playwright API, UI, cross-browser, and accessibility tests; test plans, test case design, exploratory testing, and defect reports
+- **Quality & Delivery:** Minitest and Vitest test suites, GitHub Actions CI/CD, and cloud deployment
 - **Frontend & Analytics:** React dashboards and data visualization
 
 ---
@@ -48,6 +50,19 @@ A Ruby on Rails REST API for booking shared community resources (rooms, equipmen
 - Prevented **double bookings under concurrent requests** with a PostgreSQL exclusion constraint, returning **409 Conflict**
 - Wrote **87 Minitest model and API request tests** for CRUD, reservation creation and cancellation, filtering, and validation errors, run by **GitHub Actions** on every change
 - Deployed the API to **Render** with serverless PostgreSQL on **Neon** and a JavaScript demo client on **Vercel**, with a production-mode end-to-end job in CI
+
+### QA & Test Automation for the Reservation System · Community of Guardians
+
+🔗 **[Code](https://github.com/nishithata/community-reservations-qa)** · **[Test plan](https://github.com/nishithata/community-reservations-qa/blob/main/docs/TEST_PLAN.md)** · **[Bug reports](https://github.com/nishithata/community-reservations-qa/blob/main/docs/BUG_REPORTS.md)** · **[Test report](https://github.com/nishithata/community-reservations-qa/blob/main/docs/TEST_REPORT.md)**
+
+An end-to-end quality engineering project that tests the live reservation system above, from the test plan down to automated checks running nightly in CI.
+
+**Stack:** Playwright · TypeScript · axe-core · k6 · GitHub Actions
+
+- Built **94 automated tests** covering the API, the UI on **Chromium, Firefox, WebKit, and mobile**, and **accessibility (WCAG 2.1 AA)**
+- Wrote a **test plan** and a **test case catalog traced to 12 requirements**, using equivalence partitioning, boundary values, decision tables, and state transitions
+- Found and documented **10 defects**; a **mobile layout bug that broke booking on phones** and **color-contrast failures** were fixed and re-verified by the suite
+- Covered **security** (forged tokens, authorization, XSS) and **concurrency** (simultaneous bookings), plus **k6 load tests** with latency thresholds
 
 ### SDG Impact Dashboard · Community of Guardians
 
@@ -114,6 +129,8 @@ A React + TypeScript application featuring a component library, client-side imag
 
 ![Minitest](https://img.shields.io/badge/Minitest-CC342D?style=flat&logo=ruby&logoColor=white)
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat&logo=vitest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
+![k6](https://img.shields.io/badge/k6-7D64FF?style=flat&logo=k6&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
 
 **DevOps & Cloud**
