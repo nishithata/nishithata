@@ -14,6 +14,7 @@ I'm actively looking for **Ruby on Rails, backend, and full-stack engineering ro
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:nishitha.1190@gmail.com)
 [![Resume](https://img.shields.io/badge/Resume-1a1a1a?style=flat&logo=googledocs&logoColor=white)](https://nishithata.github.io/resume/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://nishitha-studio.vercel.app)
+[![Rails API Demo](https://img.shields.io/badge/Rails_API_Demo-D30001?style=flat&logo=rubyonrails&logoColor=white)](https://community-reservations-api-web.vercel.app)
 
 ---
 
@@ -31,11 +32,13 @@ I'm actively looking for **Ruby on Rails, backend, and full-stack engineering ro
 
 ### Community Resource Reservation API · Community of Guardians
 
-🔗 **Live demo:** https://community-reservations-api-web.vercel.app · **Code:** [nishithata/community-reservations-api](https://github.com/nishithata/community-reservations-api)
+<a href="https://community-reservations-api-web.vercel.app"><img src="https://raw.githubusercontent.com/nishithata/community-reservations-api/main/web/og-image.png" alt="Community Reservations: a booking calendar showing a confirmed slot and a rejected overlapping request (409 Conflict)" width="640"></a>
 
-A Ruby on Rails REST API for managing community resources, reservation lifecycles, and availability.
+🔗 **[Live demo](https://community-reservations-api-web.vercel.app)** · **[Code](https://github.com/nishithata/community-reservations-api)** · **[API docs](https://github.com/nishithata/community-reservations-api/blob/main/docs/API.md)** · **[Architecture](https://github.com/nishithata/community-reservations-api/blob/main/docs/ARCHITECTURE.md)**
 
-**Stack:** Ruby · Ruby on Rails · PostgreSQL · ActiveRecord · JWT · Pagy · Minitest · GitHub Actions · Docker · Render
+A Ruby on Rails REST API for booking shared community resources (rooms, equipment, garden plots, vehicles), built so two people can never book the same slot, even when they click **Reserve** at the same moment. Try it with `demo@example.com` / `demo-password-123`.
+
+**Stack:** Ruby · Ruby on Rails · PostgreSQL · ActiveRecord · JWT · Pagy · Minitest · GitHub Actions · Docker · Render · Neon · Vercel
 
 - Designed and built a RESTful Rails API following **MVC** conventions
 - Modeled the domain with **ActiveRecord associations, validations, migrations, and SQL indexes**, plus a health-check endpoint
@@ -44,7 +47,7 @@ A Ruby on Rails REST API for managing community resources, reservation lifecycle
 - Added **Pagy pagination** to list endpoints
 - Prevented **double bookings under concurrent requests** with a PostgreSQL exclusion constraint, returning **409 Conflict**
 - Wrote **87 Minitest model and API request tests** for CRUD, reservation creation and cancellation, filtering, and validation errors, run by **GitHub Actions** on every change
-- Deployed the API and PostgreSQL to **Render**, with a JavaScript demo client on **Vercel**
+- Deployed the API to **Render** with serverless PostgreSQL on **Neon** and a JavaScript demo client on **Vercel**, with a production-mode end-to-end job in CI
 
 ### SDG Impact Dashboard · Community of Guardians
 
@@ -118,6 +121,8 @@ A React + TypeScript application featuring a component library, client-side imag
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=white)
+![Neon](https://img.shields.io/badge/Neon-00E599?style=flat&logo=postgresql&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
