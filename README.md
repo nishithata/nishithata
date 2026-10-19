@@ -31,16 +31,20 @@ I'm actively looking for **Ruby on Rails, backend, and full-stack engineering ro
 
 ### Community Resource Reservation API · Community of Guardians
 
+🔗 **Live demo:** https://community-reservations-api-web.vercel.app · **Code:** [nishithata/community-reservations-api](https://github.com/nishithata/community-reservations-api)
+
 A Ruby on Rails REST API for managing community resources, reservation lifecycles, and availability.
 
-**Stack:** Ruby · Ruby on Rails · PostgreSQL · ActiveRecord · JWT · Pagy · Minitest · GitHub Actions
+**Stack:** Ruby · Ruby on Rails · PostgreSQL · ActiveRecord · JWT · Pagy · Minitest · GitHub Actions · Docker · Render
 
 - Designed and built a RESTful Rails API following **MVC** conventions
 - Modeled the domain with **ActiveRecord associations, validations, migrations, and SQL indexes**, plus a health-check endpoint
 - Built reservation validation that **rejects invalid time ranges and conflicting bookings**, returning structured JSON errors with the correct REST status codes
 - Secured endpoints with **JWT authentication and role-based authorization** (401 / 403 responses)
 - Added **Pagy pagination** to list endpoints
-- Wrote **Minitest model and API request tests** for CRUD, reservation creation and cancellation, filtering, and validation errors, run by **GitHub Actions** on every change
+- Prevented **double bookings under concurrent requests** with a PostgreSQL exclusion constraint, returning **409 Conflict**
+- Wrote **87 Minitest model and API request tests** for CRUD, reservation creation and cancellation, filtering, and validation errors, run by **GitHub Actions** on every change
+- Deployed the API and PostgreSQL to **Render**, with a JavaScript demo client on **Vercel**
 
 ### SDG Impact Dashboard · Community of Guardians
 
