@@ -1,8 +1,8 @@
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:7c3aed&height=160&section=header&text=Ruby%20on%20Rails%20%7C%20Full-Stack%20Developer&fontSize=28&fontColor=ffffff&fontAlignY=55)
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:7c3aed&height=160&section=header&text=Full-Stack%20Developer%20%7C%20Ruby%20on%20Rails&fontSize=28&fontColor=ffffff&fontAlignY=55)
 
 # Hi, I'm Nishitha Thatha Anil
 
-**Ruby on Rails Developer · Full-Stack Developer · Backend Engineer**
+**Full-Stack Developer · Ruby on Rails · JavaScript · PostgreSQL**
 
 I build **RESTful APIs with Ruby on Rails, ActiveRecord, and PostgreSQL**, secured with JWT authentication and role-based authorization, and backed by automated tests that run in GitHub Actions CI. I also build full-stack **JavaScript / TypeScript** applications with React, Node.js, and AWS.
 
