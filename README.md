@@ -64,6 +64,19 @@ An end-to-end quality engineering project that tests the live reservation system
 - Found and documented **10 defects**; a **mobile layout bug that broke booking on phones** and **color-contrast failures** were fixed and re-verified by the suite
 - Covered **security** (forged tokens, authorization, XSS) and **concurrency** (simultaneous bookings), plus **k6 load tests** with latency thresholds
 
+### Model Evaluation Platform
+
+🔗 **[Code](https://github.com/nishithata/model-eval-platform)** · **[Architecture](https://github.com/nishithata/model-eval-platform/blob/main/docs/ARCHITECTURE.md)**
+
+A Python platform for evaluating AI models against versioned test suites, built for teams adopting generative AI who need to know whether a new model or prompt is actually better.
+
+**Stack:** Python · FastAPI · asyncio · SQLAlchemy · PostgreSQL · Pydantic · Anthropic SDK · pytest · GitHub Actions · Docker
+
+- Pluggable adapters for **Claude (Anthropic SDK)**, **local open-weight models** via OpenAI-compatible APIs, and offline baselines
+- Resilient **async runner**: bounded concurrency, timeouts, exponential backoff with jitter, retryable vs. permanent failures, and **crash-safe resume**
+- **Regression gate for CI**, metrics (pass rate, p95 latency, per-tag breakdowns), REST API, CLI, and HTML reports
+- **Robotics suite** turning natural-language commands into JSON action plans; **124 tests (97% coverage)**, strict mypy, CI on SQLite and PostgreSQL
+
 ### SDG Impact Dashboard · Community of Guardians
 
 A full-stack platform where users track and share real-world contributions to the **UN Sustainable Development Goals**, with challenges, social features, gamification, and a 24-view analytics suite.
@@ -97,16 +110,17 @@ A React + TypeScript application featuring a component library, client-side imag
 **Languages**
 
 ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat&logo=ruby&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
 **Backend**
 
 ![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-D30001?style=flat&logo=rubyonrails&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
 
